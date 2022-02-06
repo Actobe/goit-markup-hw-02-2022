@@ -1,0 +1,126 @@
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration:none
+}
+
+.logo link {
+font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo link {
+    font-family: 'Oleo Script', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.38;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #212121;
+}
+.nav-list-item {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+color:#2196F3;
+}
+.contact-mail link {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.contact-number link {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.contact-mail link:hover,
+.contact-mail link:focus {
+color: #2196F3;  
+} 
+.contact-number link:hover,
+.contact-number link:focus {
+color:#2196F3;  
+}
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color:#2196F3;
+color: #FFFFFF;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+color: #2196F3;  
+}
+.main-title {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}  
+.main-description {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.description {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+.activity {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+58 line html didnt work!!!!!!!
