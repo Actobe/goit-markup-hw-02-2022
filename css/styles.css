@@ -5,7 +5,7 @@
     text-decoration:none
 }
 
-.logo link {
+.logo {
 font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 600;
@@ -15,8 +15,8 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-.logo link {
-    font-family: 'Oleo Script', cursive;
+.logo-studio {
+font-family: 'Oleo Script', cursive;
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
@@ -25,27 +25,29 @@ line-height: 1.38;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.nav-list-item {
+.nav-list-link {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: #212121
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
 color:#2196F3;
 }
-.contact-mail link {
+.contact-mail {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+color: #757575;
 }
-.contact-number link {
+.contact-number {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -55,13 +57,17 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.contact-mail link:hover,
-.contact-mail link:focus {
+.contact-mail:hover,
+.contact-mail:focus {
 color: #2196F3;  
 } 
-.contact-number link:hover,
-.contact-number link:focus {
+.contact-number:hover,
+.contact-number:focus {
 color:#2196F3;  
+}
+
+.hero {
+background: #2F303A;
 }
 .modal-btn {
 font-family: 'Roboto', sans-serif;
@@ -92,6 +98,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: #FFFFFF;
 }  
 .main-description {
 font-family: 'Roboto', sans-serif;
@@ -145,7 +152,20 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.address list link {
+.footer {
+background: #2F303A;
+}
+.logo link {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.address {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -155,7 +175,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.mail link {
+.mail {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -165,7 +185,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
-.phone link {
+.phone {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -175,8 +195,13 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+.phone:focus {
+color: #2196F3;
+}
+
 //second page//
-.portfolio-list link {
+
+.portfolio-list {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -185,11 +210,13 @@ line-height: 1.63;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+background: #F5F4FA;
+border-radius: 4px;
 }
-.portfolio-list:hover,
+.portfolio-list:hover
 .portfolio-list:focus {
-color: #2196F3
+color: #FFFFFF;
+background-color: #2196F3
 }
 .nomenclature {
 font-family: 'Roboto', sans-serif;
