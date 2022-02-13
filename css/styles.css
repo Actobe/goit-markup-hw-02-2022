@@ -14,15 +14,16 @@ line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
 color: #2196F3;
+
 }
-.logo-studio {
-font-family: 'Oleo Script', cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 1.38;
-/* identical to box height */
-letter-spacing: 0.03em;
+.logo-web {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
 color: #212121;
 }
 .nav-list-link {
@@ -81,10 +82,11 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+cursor:pointer;
 background-color:#2196F3;
 color: #FFFFFF;
 }
-.modal-btn:hover,
+
 .modal-btn:focus {
 color: #2196F3;  
 }
@@ -155,16 +157,27 @@ color: #757575;
 .footer {
 background: #2F303A;
 }
-.logo link {
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #2196F3;
-}
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+    }
+    .logo-w {
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
 .address {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -198,9 +211,17 @@ color: rgba(255, 255, 255, 0.6);
 .phone:focus {
 color: #2196F3;
 }
+.mail:hover {
+color: #2196F3;
+}
+.phone:hover {
+color: #2196F3;
+}
 
 //second page//
-
+.button {
+cursor:pointer;
+}
 .portfolio-list {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -208,9 +229,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 /* identical to box height, or 162% */
-text-align: center;
+
 letter-spacing: 0.03em;
-background: #F5F4FA;
+cursor:pointer;
+
 border-radius: 4px;
 }
 .portfolio-list:hover
